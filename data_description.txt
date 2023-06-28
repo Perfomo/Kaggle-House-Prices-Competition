@@ -17,6 +17,8 @@ MSSubClass: Identifies the type of dwelling involved in the sale.
        180	PUD - MULTILEVEL - INCL SPLIT LEV/FOYER
        190	2 FAMILY CONVERSION - ALL STYLES AND AGES
 
+       // made 16 clasess from 0 to 15
+
 MSZoning: Identifies the general zoning classification of the sale.
 		
        A	Agriculture
@@ -27,8 +29,11 @@ MSZoning: Identifies the general zoning classification of the sale.
        RL	Residential Low Density
        RP	Residential Low Density Park 
        RM	Residential Medium Density
+
+       // dummies 4na
 	
-LotFrontage: Linear feet of street connected to property
+LotFrontage: Linear feet of street connected to property 
+       // fill na 69(mean) and Normalization 
 
 LotArea: Lot size in square feet
 
